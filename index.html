@@ -1,15 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DevJane Portfolio Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charme Lishivha Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
 
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
 
-    </head>
-    <body>
-        
-    </body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <!-- <span>Charme Lee</span> -->
+        <img src="img/1.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Charme Lishivha</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Aspiring Front-End Dev
+      </p>
+      <img
+        src="img/black.jpg"
+        alt="a picture of Jane Smith smiling"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Codespace student</h3>
+          <p>
+            As a dedicated student at CodeSpace, I am immersed in a dynamic
+            learning environment where I develop my skills in software
+            development. Through hands-on projects and collaborative learning, I
+            am gaining a solid foundation in programming languages, frameworks,
+            and best practices. My experience here not only enhances my
+            technical abilities but also fosters my passion for innovative
+            problem-solving and continuous growth in the tech industry.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>HTML & CSS</h3>
+          <p>
+            As a student, I am developing my expertise in HTML and CSS, focusing
+            on creating engaging web designs. I am learning to implement best
+            practices for clean markup and effective styling, ensuring a great
+            user experience. My studies are equipping me with the skills to
+            bring innovative ideas to life through the web.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Responsiveness</h3>
+          <p>
+            I am honing my skills in responsive design to create websites that
+            adapt seamlessly across devices. I focus on utilizing flexible
+            layouts, media queries, and adaptive elements to enhance usability
+            and accessibility. My goal is to ensure that every user enjoys a
+            consistent and engaging experience, regardless of screen size.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Aspiring developer based in JHB
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          I am a part-time student at CodeSpace Academy, currently studying
+          software development and living in Johannesburg. Passionate about the
+          rapidly evolving world of technology, I am eager to embrace new
+          opportunities and avoid missing out on its potential.
+        </p>
+        <p>
+          My goal is to transition from my current career to front-end
+          development, as I believe this shift will enhance my critical thinking
+          skills and allow me to see the tangible impact of my work. I am
+          excited to contribute to creating engaging and user-friendly
+          experiences.
+        </p>
+      </div>
+
+      <img
+        src="img/hat.jpg"
+        alt="Jane leaning against a bus"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="portfolio1.html" class="portfolio__item">
+          <img src="img/Codespacecat2.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a href="portfolio2.html" class="portfolio__item">
+          <img src="img/Cookies.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 03 -->
+        <a href="portfolio3.html" class="portfolio__item">
+          <img src="img/Buttons2.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 04 -->
+        <!-- <a href="#" class="portfolio__item">
+          <img src="img/portfolio-04.jpg" alt="" class="portfolio__img" />
+        </a> -->
+
+        <!-- Portfolio item 05 -->
+        <!-- <a href="#" class="portfolio__item">
+          <img src="img/portfolio-05.jpg" alt="" class="portfolio__img" />
+        </a> -->
+
+        <!-- Portfolio item 06 -->
+        <!-- <a href="#" class="portfolio__item">
+          <img src="img/portfolio-06.jpg" alt="" class="portfolio__img" />
+        </a> -->
+
+        <!-- Portfolio item 07 -->
+        <!-- <a href="#" class="portfolio__item">
+          <img src="img/portfolio-07.jpg" alt="" class="portfolio__img" />
+        </a> -->
+
+        <!-- Portfolio item 08 -->
+        <!-- <a href="#" class="portfolio__item">
+          <img src="img/portfolio-08.jpg" alt="" class="portfolio__img" />
+        </a> -->
+
+        <!-- Portfolio item 09 -->
+        <!-- <a href="#" class="portfolio__item">
+          <img src="img/portfolio-09.jpg" alt="" class="portfolio__img" />
+        </a> -->
+
+        <!-- Portfolio item 0 0-->
+        <!-- <a href="#" class="portfolio__item">
+          <img src="img/portfolio-10.jpg" alt="" class="portfolio__img" />
+        </a>
+      </div> -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- replace with your own email address -->
+      <a href="mailto:Charmelishivha@gmail.com" class="footer__link"
+        >Click here to contact me</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io/Charme_Lee">
+            <i class="fab fa-codepen"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.linkedin.com/in/Lishivha-charme-424767158/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://x.com/lee_charme">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/Charme-Lee">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
