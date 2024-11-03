@@ -21,7 +21,7 @@ Additionally, I customized the webpage theme and incorporated my own personal da
 
 I added only three pieces of course work because I am confident of my work and progess on these areas. When the projects are hovered the colors appears different due to my prefered changed. Additionally, I created my own logo just to give a personal touch.
 
-Overall, this project was both fun and straightforward, allowing me to enhance my skills while adding my personal touch. I also do note that there were no additional materials required for this exercise.
+Overall, this project was both fun and straightforward, allowing me to enhance my skills while adding my personal touch. I also do note that there were no additional materials required for this exercise and that the webpage is responsive.
 
 Once you've completed and tested your app:
 
